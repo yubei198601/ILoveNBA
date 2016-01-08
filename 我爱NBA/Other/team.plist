@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+	<string>凯尔特人</string>
+	<string>热火</string>
+	<string>魔术</string>
+	<string>公牛</string>
+	<string>老鹰</string>
+	<string>尼克斯</string>
+	<string>步行者</string>
+	<string>雄鹿</string>
+	<string>76人</string>
+	<string>山猫</string>
+	<string>活塞</string>
+	<string>奇才</string>
+	<string>篮网</string>
+	<string>猛龙</string>
+	<string>骑士</string>
+	<string>湖人</string>
+	<string>马刺</string>
+	<string>火箭</string>
+	<string>小牛</string>
+	<string>黄蜂</string>
+	<string>爵士</string>
+	<string>掘金</string>
+	<string>太阳</string>
+	<string>国王</string>
+	<string>雷霆</string>
+	<string>灰熊</string>
+	<string>快船</string>
+	<string>开拓者</string>
+	<string>森林狼</string>
+	<string>勇士</string>
+	<string>鹈鹕</string>
+</array>
+</plist>

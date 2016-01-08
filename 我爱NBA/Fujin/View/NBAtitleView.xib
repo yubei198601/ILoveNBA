@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="9531" systemVersion="15C50" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9529"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleAspectFit" id="iN0-l3-epB" customClass="NBAtitleView">
+            <rect key="frame" x="0.0" y="0.0" width="100" height="44"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="bottom" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="8yg-gM-LM2">
+                    <rect key="frame" x="0.0" y="0.0" width="100" height="44"/>
+                    <fontDescription key="fontDescription" type="boldSystem" pointSize="12"/>
+                    <state key="normal" title="分类">
+                        <color key="titleColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                    </state>
+                </button>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="篮球" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ik9-ul-QOk">
+                    <rect key="frame" x="0.0" y="0.0" width="100" height="25"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="25" id="A3o-Ig-f1e"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                    <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    <nil key="highlightedColor"/>
+                </label>
+            </subviews>
+            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+            <constraints>
+                <constraint firstItem="ik9-ul-QOk" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" id="KHn-9U-d6t"/>
+                <constraint firstAttribute="trailing" secondItem="ik9-ul-QOk" secondAttribute="trailing" id="NwO-CW-l5x"/>
+                <constraint firstItem="8yg-gM-LM2" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" id="R9J-2M-yVi"/>
+                <constraint firstAttribute="bottom" secondItem="8yg-gM-LM2" secondAttribute="bottom" id="XLZ-CI-uNu"/>
+                <constraint firstItem="ik9-ul-QOk" firstAttribute="centerX" secondItem="iN0-l3-epB" secondAttribute="centerX" id="Zwe-40-3eQ"/>
+                <constraint firstAttribute="trailing" secondItem="8yg-gM-LM2" secondAttribute="trailing" id="iae-ji-9NK"/>
+                <constraint firstItem="8yg-gM-LM2" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" id="rj9-i3-Dzh"/>
+                <constraint firstItem="ik9-ul-QOk" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" id="yd3-Eu-QZp"/>
+            </constraints>
+            <nil key="simulatedStatusBarMetrics"/>
+            <simulatedOrientationMetrics key="simulatedOrientationMetrics"/>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <connections>
+                <outlet property="sortBtn" destination="8yg-gM-LM2" id="x0L-Nf-Hwg"/>
+            </connections>
+        </view>
+    </objects>
+</document>
